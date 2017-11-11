@@ -15,14 +15,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./documentation/grayscale.jpg "Grayscale"
-[image2]: ./documentation/gaussian_blur.jpg "Gaussian Blur"
-[image3]: ./documentation/edges.jpg "Edges"
-[image4]: ./documentation/masked_edges.jpg "Masked Edges"
-[image5]: ./documentation/found_lines.jpg "Found Lines"
-[image6]: ./documentation/found_lines_on_orig.jpg "Found Lines on Original"
-[image7]: ./documentation/found_lines_avg_lines_on_orig.jpg "Found Lines and Average Line on Original"
-[image8]: ./documentation/result.jpg "Result"
+[image1]: documentation/grayscale.jpg "Grayscale"
+[image2]: documentation/gaussian_blur.jpg "Gaussian Blur"
+[image3]: documentation/edges.jpg "Edges"
+[image4]: documentation/masked_edges.jpg "Masked Edges"
+[image5]: documentation/found_lines.jpg "Found Lines"
+[image6]: documentation/found_lines_on_orig.jpg "Found Lines on Original"
+[image7]: documentation/found_lines_avg_lines_on_orig.jpg "Found Lines and Average Line on Original"
+[image8]: documentation/result.jpg "Result"
 
 ---
 
