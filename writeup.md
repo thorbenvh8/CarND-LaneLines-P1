@@ -32,24 +32,31 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 7 steps.
 
-  1. Transform image into gray scales ![Grayscale][image1]
-  2. Trasnform image with gaussian blur ![Gaussian Blur][image2]
-  3. Transform image with canny edge algorithm ![Edges][image3]
-  4. Mask only the interesting area ![Masked Edges][image4]
-    1. The area is from the bottom corners to the middle of the image
-  5. Use the Houghlines algorithm to extract lines in the image ![Found Lines][image5] ![Found Lines on Original][image6]
+  1. Transform image into gray scales
+     ![Grayscale][image1]
+  2. Trasnform image with gaussian blur
+     ![Gaussian Blur][image2]
+  3. Transform image with canny edge algorithm
+     ![Edges][image3]
+  4. Mask only the interesting area
+     ![Masked Edges][image4]
+     1. The area is from the bottom corners to the middle of the image
+  5. Use the Houghlines algorithm to extract lines in the image
+     ![Found Lines][image5] ![Found Lines on Original][image6]
   6. Filter the found lines to left and right Lines
-    1. In genral we only want to look at lines that have at least 22.5°
-    2. Left (blue on image)
-      1. Slope < 0
-      2. Line in left half of the image
-    3. Right (green on image)
-      1. Slope >= 0
-      2. Line in right half of the image
-    4. Find out the average slope for each side
-      1. Only allow lines that are off inside 9° of average slope of lines
-  7. Calculate average line for each side ![Found Lines and Average Lines on Original][image7]
+     1. In genral we only want to look at lines that have at least 22.5°
+     2. Left (blue on image)
+        1. Slope < 0
+        2. Line in left half of the image
+     3. Right (green on image)
+        1. Slope >= 0
+        2. Line in right half of the image
+     4. Find out the average slope for each side
+        1. Only allow lines that are off inside 9° of average slope of lines
+  7. Calculate average line for each side
+     ![Found Lines and Average Lines on Original][image7]
 
+  Result:
   ![Result][image8]
 
 ### 2. Identify potential shortcomings with your current pipeline
